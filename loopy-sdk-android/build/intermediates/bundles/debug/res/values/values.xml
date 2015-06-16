@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/ubbvand2/Himanshu/SDKS/searchsdk-android-master/RecycleViewDemo/loopy-sdk-android/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="STAppLabelTheme" parent="@android:style/TextAppearance.Small"/>
+    <style name="STDialogTheme" parent="@android:style/Theme.Light"/>
+</resources>

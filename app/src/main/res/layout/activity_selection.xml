@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.himotech.recycleviewdemo.SelectionActivity"
+    android:background="@color/white"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_home"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/toolbar_home"
+        >
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear RecycleView"
+            app:backgroundTintMode="src_over"
+            app:backgroundTint="@color/colorAccent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:backgroundTintMode="src_over"
+            android:onClick="onStartVertical"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horizon RecycleView"
+            app:backgroundTintMode="src_over"
+            app:backgroundTint="@color/colorAccent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:backgroundTintMode="src_in"
+            android:onClick="onStartHorizon"
+            />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid RecycleView"
+            app:backgroundTintMode="src_over"
+            app:backgroundTint="@color/colorAccent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:backgroundTintMode="src_in"
+            android:onClick="onStartGrid"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

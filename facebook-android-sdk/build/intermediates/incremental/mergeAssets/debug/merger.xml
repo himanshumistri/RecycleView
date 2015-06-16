@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ubbvand2/Himanshu/SDKS/searchsdk-android-master/RecycleViewDemo/facebook-android-sdk/assets"/></dataSet><dataSet config="debug"><source path="/home/ubbvand2/Himanshu/SDKS/searchsdk-android-master/RecycleViewDemo/facebook-android-sdk/build-types/debug/assets"/></dataSet></merger>

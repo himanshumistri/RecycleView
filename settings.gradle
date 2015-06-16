@@ -1,0 +1,1 @@
+include ':app', ':sdknew', ':android-ioc', ':loopy-sdk-android', ':facebook-android-sdk'
